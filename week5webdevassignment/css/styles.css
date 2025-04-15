@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font */
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styling for the header */
+#main-header {
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* White text in the header */
+    text-align: center; /* Center the header text */
+    padding: 20px; /* Add padding to the header */
+}
+
+/* Class selector for paragraphs */
+.intro-text {
+    font-size: 18px; /* Set font size */
+    line-height: 1.6; /* Increase line spacing */
+    padding: 20px; /* Add padding around text */
+    margin: 10px 0; /* Add margin above and below */
+    background-color: #fff; /* White background */
+    border-left: 5px solid #4CAF50; /* Green left border */
+}
+
+/* Class selector for images */
+img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+/* Styling for the footer */
+#footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text */
+    padding: 10px;
+    text-align: center; /* Center the footer text */
+    position: fixed; /* Fix footer at the bottom */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Apply styles for links */
+a {
+    color: #4CAF50; /* Green link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
